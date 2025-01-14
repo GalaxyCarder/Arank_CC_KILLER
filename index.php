@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "7675794689:AAH-iaVcFCLXw11VAOw64Z5GIV1dF4V6zcciaVcFCLXw11VAOw64Z5GIV1dF4V6zcc";
+$botToken = "7383332333:AAF9_ZGTjpdtsQMRJLrVScBswjOSGqJpecE";
 $website = "https://api.telegram.org/bot".$botToken;
 $update = file_get_contents('php://input');
 //echo $update;
@@ -28,7 +28,7 @@ $username3       = ('@'.$username);
  $info            = json_encode($update, JSON_PRETTY_PRINT); 
 $emojid = '❌';
 $emojil = '❌';
-$owner = '<code>@Itsz_Krish__3030</code>';
+$owner = '<code>@Galaxy_Carder</code>';
 $cofuid = '1212';
 $cofuid2 = '1212';
 $cofuid3 = '1212';
@@ -79,7 +79,7 @@ $callbackmessage = $update->callback_query->message->text;
 $callbackid = $update->callback_query->id;
 
 $text = $update->message->text;
-$owner = '<code>@Itsz_Krish__3030</code>';
+$owner = '<code>@Galaxy_Carder</code>';
 
 
 
