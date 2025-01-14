@@ -5,7 +5,7 @@ $currentDate = date('Y-m-d');
     $expiryDate = "0";
 
 
-$videoURLStart = "https://t.me/Mr_Mrs_Hitlerrrr/3";
+$videoURLStart = "https://t.me/c/2191044873/146";
 
     $paidUsers = file('Database/paid.txt', FILE_IGNORE_NEW_LINES);
     $freeUsers = file('Database/free.txt', FILE_IGNORE_NEW_LINES);
